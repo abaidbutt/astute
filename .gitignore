@@ -34,4 +34,7 @@ yarn-error.log*
 .vercel
 
 # Local Netlify folder
-.netlify
+.netlify# Layer0 generated build directory
+.layer0
+# Layer0 generated build directory
+.layer0
