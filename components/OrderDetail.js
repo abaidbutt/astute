@@ -1,5 +1,5 @@
 import Link from "next/link";
-import PaypalBtn from "./paypalBtn";
+import PaypalBtn from "./PaypalBtn";
 import { useDispatch, useSelector } from "react-redux";
 import { patchData, postData } from "../utils/fetchData";
 
