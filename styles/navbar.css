@@ -1,0 +1,114 @@
+.logo-css {
+  height: 40px;
+}
+.navbar-toggler {
+  color: #64ffda;
+  transition: all 0.3s ease-in-out;
+}
+.sidemenu {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 0px;
+  background-color: #172a45;
+  z-index: 10000000000000000000000000000;
+  padding-top: 100px;
+  overflow-x: hidden;
+  transition: all 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.sidebar-item {
+  padding: 8px 8px 8px 94px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #999;
+  display: block;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.sidebar-item:hover {
+  color: #64ffda;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.sidebar-button {
+  padding: 8px 8px 8px 4px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #999;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar-button:hover {
+  color: #64ffda;
+  transition: all 0.3s ease-in-out;
+}
+.sidemenu .closebtn {
+  position: absolute;
+  top: 0px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 32px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+#mainbox {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.dropdown a {
+  color: #ccd6f6;
+  font-size: 15px;
+  font-family: monospace;
+  transition: all 0.3s ease-in-out;
+}
+.dropdown a:hover {
+  color: #64ffda;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-border {
+  border-color: #64ffda;
+  color: #64ffd3;
+  margin-left: 33px;
+  font-size: 15px;
+  transition: all 0.3s ease-in-out;
+}
+.button-hover:hover {
+  background: #10293b;
+  color: #64ffda;
+  transition: all 0.3s ease-in-out;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+}
+.dropdown-menu {
+  background-color: #0a192f;
+  transition: all 0.3s ease-in-out;
+}
+.dropdown-item:hover {
+  color: #64ffda;
+  background-color: #0a192f;
+  transition: all 0.3s ease-in-out;
+}
+
+.carousel .carousel-item {
+  height: 280px;
+}
+
+.item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
