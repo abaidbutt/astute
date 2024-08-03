@@ -1,34 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Women-Centric Web Application
+
+Welcome to the Women-Centric Web Application! This project is designed to provide a seamless user experience tailored for women, built with Next.js. The application includes features such as user registration, product browsing, shopping cart functionality, and user profiles.
+
+## Features
+
+- User Registration and Authentication
+- Product Browsing and Categories
+- Shopping Cart
+- User Profile Management
+- Responsive Design
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Ensure you have the following installed on your machine:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js (>= 12.x)
+- npm or yarn
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Installation
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/abaidbutt/astute.git
+    cd women-centric-web-app
+    ```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+2. Install dependencies:
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
-## Learn More
+### Running the Application
 
-To learn more about Next.js, take a look at the following resources:
+1. Start the development server:
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Open your browser and navigate to `http://localhost:3000` to see the application running.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Project Structure
 
-## Deploy on Vercel
+This project is structured to ensure modularity and scalability:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **api/**: Contains API routes and handlers.
+- **pages/**: Next.js pages for different routes (e.g., home, register, signin, profile, etc.).
+- **public/**: Static assets like images and icons.
+- **styles/**: CSS and styling files.
+- **components/**: Reusable React components.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Key Pages
+
+- **Home** (`index.js`): Landing page.
+- **Register** (`register.js`): User registration page.
+- **Sign In** (`signin.js`): User sign-in page.
+- **Profile** (`profile.js`): User profile management.
+- **Cart** (`cart.js`): Shopping cart functionality.
+- **Categories** (`categories.js`): Product categories browsing.
+- **Users** (`users.js`): User management for admins.
+- **Create/Edit**: Pages for creating and editing entities like products and users.
+- **Orders** (`order.js`): Order management.
+
+## Contribution
+
+We welcome contributions to improve this project. You can help by:
+
+- Reporting bugs
+- Suggesting new features
+- Submitting pull requests
+
+## License
+
+This project is for a student who has a final year project for women empowerment.
